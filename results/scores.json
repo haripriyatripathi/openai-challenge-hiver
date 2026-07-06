@@ -1,0 +1,509 @@
+{
+  "overall_score": 95.0,
+  "results": [
+    {
+      "email_id": "em_001",
+      "category": "billing_issue",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Oliver's issue, acknowledges his frustration, and requests a clear next step, although the actionability could be improved by providing an alternative solution or a more specific investigation timeline."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_002",
+      "category": "billing_issue",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent directly addresses the customer's concern, acknowledges the key facts, and provides a clear next step to resolve the issue."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "email_id": "em_003",
+      "category": "billing_issue",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The agent's reply is relevant, correct, empathetic, and safe, but lacks a clear timeline for resolution."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_004",
+      "category": "billing_issue",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Sophia's issue, is factually correct, and has a suitable tone, but lacks a specific next step or timeline for resolution."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_005",
+      "category": "refund_request",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The response directly addresses Emily's issue, acknowledges her frustration, and escalates the problem to the technical team, but lacks a clear timeline for the next steps."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_006",
+      "category": "refund_request",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses the customer's issue, shows empathy, and provides a clear next step without making any unsubstantiated claims or promises."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_007",
+      "category": "refund_request",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Ava's refund request, accurately references key facts, and maintains a professional tone, but lacks a specific timeline for the refund process."
+      },
+      "composite_score": 93.0
+    },
+    {
+      "email_id": "em_008",
+      "category": "refund_request",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Julian's refund request, accurately references the key facts, and provides a clear next step while maintaining a positive tone."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "email_id": "em_009",
+      "category": "bug_report",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The response directly addresses Ethan's issue with Hiver's automated workflows, acknowledges his frustration, and requests more details to investigate further."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_010",
+      "category": "bug_report",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Liam's issue, requests relevant information for further investigation, and maintains a professional tone."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "email_id": "em_011",
+      "category": "bug_report",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The response directly addresses Ava's issue, acknowledges her frustration, and promises an investigation, but could be improved with a more specific timeline for the update."
+      },
+      "composite_score": 93.0
+    },
+    {
+      "email_id": "em_012",
+      "category": "bug_report",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.67,
+        "deterministic_score": 0.867
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses the customer's issue, provides a clear next step, and maintains a positive tone."
+      },
+      "composite_score": 96.0
+    },
+    {
+      "email_id": "em_013",
+      "category": "angry_escalation",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.67,
+        "deterministic_score": 0.867
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The response directly addresses Ethan's issue, apologizes for the inconvenience, and escalates the problem to the technical team, but the tone could be more empathetic given the customer's anger."
+      },
+      "composite_score": 89.0
+    },
+    {
+      "email_id": "em_014",
+      "category": "angry_escalation",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.67,
+        "deterministic_score": 0.867
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The response directly addresses Liam's issue, apologizes for past generic responses, and provides a clear next step by escalating the issue to the technical team."
+      },
+      "composite_score": 96.0
+    },
+    {
+      "email_id": "em_015",
+      "category": "angry_escalation",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.67,
+        "deterministic_score": 0.867
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Mason's issue, apologizes for the inconvenience, and provides a clear next step by escalating the issue to the priority support queue."
+      },
+      "composite_score": 92.5
+    },
+    {
+      "email_id": "em_016",
+      "category": "angry_escalation",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.67,
+        "deterministic_score": 0.867
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Logan's issue, acknowledges his frustration, and promises a follow-up, but lacks a specific timeline or concrete next step."
+      },
+      "composite_score": 92.5
+    },
+    {
+      "email_id": "em_017",
+      "category": "feature_question",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 4,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 3,
+        "safety": 5,
+        "comment": "The response acknowledges the customer's query and points to documentation for details, but lacks a direct answer to the specific questions about automatic email assignment and user limits."
+      },
+      "composite_score": 86.0
+    },
+    {
+      "email_id": "em_018",
+      "category": "feature_question",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses the customer's issue, acknowledges their frustration, and provides a clear next step for resolution."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "email_id": "em_019",
+      "category": "feature_question",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 4,
+        "safety": 5,
+        "comment": "The response is relevant, correct, and has a fitting tone, but lacks a clear, concrete next step with a specific timeline or outcome."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_020",
+      "category": "feature_question",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The response directly addresses Ava's concerns, acknowledges her frustration, and provides a clear next step without making any unfounded commitments."
+      },
+      "composite_score": 96.5
+    },
+    {
+      "email_id": "em_021",
+      "category": "account_access",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 1.0,
+        "deterministic_score": 1.0
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Emily's issue, acknowledges her frustration, and provides a clear next step to resolve the problem."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "email_id": "em_022",
+      "category": "account_access",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.33,
+        "deterministic_score": 0.733
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 4,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The response is mostly correct but it asks for the new team member's email address which is already provided in the key facts."
+      },
+      "composite_score": 88.5
+    },
+    {
+      "email_id": "em_023",
+      "category": "account_access",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.33,
+        "deterministic_score": 0.733
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 4,
+        "tone": 5,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The agent's response directly addresses Sarah's issue, apologizes for the inconvenience, and provides a clear next step by escalating the issue to the priority queue."
+      },
+      "composite_score": 88.5
+    },
+    {
+      "email_id": "em_024",
+      "category": "account_access",
+      "deterministic": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "uses_customer_name": true,
+        "length_ok": true,
+        "fact_coverage": 0.67,
+        "deterministic_score": 0.867
+      },
+      "rubric": {
+        "relevance": 5,
+        "correctness": 5,
+        "tone": 4,
+        "actionability": 5,
+        "safety": 5,
+        "comment": "The response directly addresses Michael's issue, provides a clear next step, and maintains a neutral tone."
+      },
+      "composite_score": 92.5
+    }
+  ]
+}

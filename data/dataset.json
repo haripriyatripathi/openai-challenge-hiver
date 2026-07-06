@@ -2,40 +2,40 @@
   {
     "id": "em_001",
     "category": "billing_issue",
-    "customer_name": "Oliver",
+    "customer_name": "Ethan",
     "sentiment": "frustrated",
-    "subject": "Unsuccessful payment for Business plan",
-    "body": "I've been trying to pay for my Business plan subscription, but I keep getting an error message - 'Payment gateway timeout'. I've attempted to pay 3 times already and it's really frustrating. Can you please help me resolve this issue?",
+    "subject": "Incorrect Charge on My Hiver Account",
+    "body": "Hi Hiver team, I'm writing to dispute a charge on my recent bill. The amount is higher than expected and I think there might have been an error. My account ID is ACCT_1234 and the plan is Growth. Please help me resolve this ASAP. The order ID is #ORD_5678.",
     "key_facts": [
-      "Business plan",
-      "Payment gateway timeout error",
-      "3 failed payment attempts"
+      "Account ID: ACCT_1234",
+      "Plan name: Growth",
+      "Order ID: #ORD_5678"
     ]
   },
   {
     "id": "em_002",
     "category": "billing_issue",
-    "customer_name": "Liam",
+    "customer_name": "Ava",
     "sentiment": "neutral",
-    "subject": "Invoice for Team plan",
-    "body": "Hi, I just wanted to inquire about my recent invoice for the Team plan. The total amount seems a bit higher than expected. Could you please break down the costs for me?",
+    "subject": "Question About Hiver Billing Cycle",
+    "body": "Hello, I recently upgraded to the Pro plan and I'm not sure when my next bill is due. Can you please inform me about the billing cycle for my account? My ticket ID is TK_9012 and I've received an error message 'Payment method not found'.",
     "key_facts": [
-      "Team plan",
-      "Recent invoice",
-      "Higher than expected total amount"
+      "Ticket ID: TK_9012",
+      "Error message: Payment method not found",
+      "Plan name: Pro"
     ]
   },
   {
     "id": "em_003",
     "category": "billing_issue",
-    "customer_name": "Ava",
+    "customer_name": "Liam",
     "sentiment": "angry",
-    "subject": "Incorrect charge for wrong plan",
-    "body": "I am extremely dissatisfied with the service. I was charged for the Enterprise plan, but I'm currently using the Basic plan. This is unacceptable. I demand a refund and a correction to my subscription.",
+    "subject": "Unauthorized Charge on My Credit Card",
+    "body": "To whom it may concern, I've just noticed an unauthorized charge from Hiver on my credit card statement. The amount is $99.99 and the transaction ID is #TRX_1111. This is outrageous and I demand a refund immediately. My Hiver account ID is ACCT_5678.",
     "key_facts": [
-      "Enterprise plan",
-      "Basic plan",
-      "Incorrect charge"
+      "Account ID: ACCT_5678",
+      "Transaction ID: #TRX_1111",
+      "Amount: $99.99"
     ]
   },
   {
@@ -43,12 +43,13 @@
     "category": "billing_issue",
     "customer_name": "Sophia",
     "sentiment": "positive",
-    "subject": "Successful payment for Grow plan",
-    "body": "Hi, I just wanted to let you know that I was able to successfully pay for my Grow plan subscription after trying a different payment method. Thank you for your patience and assistance. However, I did notice a small discrepancy in the payment confirmation email.",
+    "subject": "Help with Downgrading My Hiver Plan",
+    "body": "Hi Hiver support, I hope you can help me with downgrading my plan from Enterprise to Business. I've reviewed my usage and I think the lower plan will suffice. The order ID for my current plan is #ORD_3333 and my account ID is ACCT_9012. Thanks in advance for your assistance!",
     "key_facts": [
-      "Grow plan",
-      "Successful payment",
-      "Discrepancy in payment confirmation email"
+      "Account ID: ACCT_9012",
+      "Current plan: Enterprise",
+      "Desired plan: Business",
+      "Order ID: #ORD_3333"
     ]
   },
   {
@@ -56,68 +57,66 @@
     "category": "refund_request",
     "customer_name": "Emily",
     "sentiment": "frustrated",
-    "subject": "Refund for Hiver Growth Plan",
-    "body": "I'm writing to request a refund for my Hiver Growth Plan subscription. I was charged $49 on 02/10/2024, but the features didn't work as expected. The 'Cannot connect to Gmail' error persists. I'd appreciate it if you could look into this and process a refund as soon as possible.",
+    "subject": "Refund for Hiver Team Plan",
+    "body": "I'm writing to request a refund for my Hiver Team Plan subscription. I was charged $50 on January 1st, but the 'automation' feature I needed isn't working due to a '504 Gateway Timeout' error. I've tried reaching out to support multiple times but haven't received a solution. My order ID is #HIV-00123. I'd appreciate it if you could process the refund as soon as possible.",
     "key_facts": [
-      "Hiver Growth Plan",
-      "Cannot connect to Gmail error",
-      "Charge date: 02/10/2024",
-      "Charge amount: $49"
+      "Hiver Team Plan",
+      "#HIV-00123",
+      "504 Gateway Timeout error",
+      "$50 charge on January 1st"
     ]
   },
   {
     "id": "em_006",
     "category": "refund_request",
-    "customer_name": "Liam",
+    "customer_name": "David",
     "sentiment": "angry",
-    "subject": "Unauthorized Charge for Hiver Pro",
-    "body": "I just found out that I've been charged $29 for a Hiver Pro subscription. I never authorized this and I'm extremely dissatisfied. The 'Authentication failed' error I'm seeing is probably related to this issue. I demand a full refund and expect a resolution to this problem immediately.",
+    "subject": "Unacceptable Experience - Refund Needed",
+    "body": "I'm extremely dissatisfied with Hiver's service. The ' reports' feature on my Hiver Business Plan doesn't work as advertised, and I've been getting a 'Failed to load data' error consistently. Despite multiple support tickets, the issue remains unresolved. My ticket ID is #TKT-00987. I demand a full refund for my $200 monthly subscription. If I don't hear back from you within the next 48 hours, I'll be forced to take further action.",
     "key_facts": [
-      "Hiver Pro plan",
-      "Unauthorized charge",
-      "Charge amount: $29",
-      "Authentication failed error"
+      "Hiver Business Plan",
+      "$200 monthly subscription",
+      "#TKT-00987",
+      "Failed to load data error"
     ]
   },
   {
     "id": "em_007",
     "category": "refund_request",
-    "customer_name": "Ava",
+    "customer_name": "Sophia",
     "sentiment": "neutral",
-    "subject": "Requesting Refund for Hiver Team Plan",
-    "body": "I'm reaching out to request a refund for my Hiver Team Plan subscription. Due to company restructuring, we no longer need this service. Our order ID is #HTP0012. We were charged $99 on 01/15/2024. Could you please let me know the next steps to obtain a refund?",
+    "body": "Hello, I'm reaching out to request a refund for my Hiver Starter Plan. I initially signed up for the trial, but it automatically converted to a paid subscription. However, I realized that I don't need the features offered in the plan. My order ID is #HIV-04567, and I was charged $20 on February 15th. Could you please assist me with the refund process?",
+    "subject": "Refund for Unwanted Subscription",
     "key_facts": [
-      "Hiver Team Plan",
-      "Order ID: #HTP0012",
-      "Charge date: 01/15/2024",
-      "Charge amount: $99"
+      "Hiver Starter Plan",
+      "#HIV-04567",
+      "$20 charge on February 15th"
     ]
   },
   {
     "id": "em_008",
     "category": "refund_request",
-    "customer_name": "Julian",
+    "customer_name": "Jackson",
     "sentiment": "positive",
-    "subject": "Refund Request for Hiver Enterprise Plan",
-    "body": "Hi Hiver support, I hope you're doing well. I'm writing to request a refund for my Hiver Enterprise Plan. Although I loved the features, we've decided to switch to an alternative solution. Our subscription ID is #HEP0051. We were charged $199 on 03/01/2024. I appreciate your help in processing the refund.",
+    "subject": "Refund and Cancellation Request",
+    "body": "Hi Hiver team, I hope you're doing well. I've been using the Hiver Enterprise Plan for a few months now, but unfortunately, my team's needs have changed, and we no longer require the service. I'd like to request a refund for the remaining period of my subscription and cancel my account. My ticket ID is #TKT-01234, and I've been charged $500 per month. I appreciate your help in this matter, and I'm looking forward to hearing back from you soon.",
     "key_facts": [
       "Hiver Enterprise Plan",
-      "Subscription ID: #HEP0051",
-      "Charge date: 03/01/2024",
-      "Charge amount: $199"
+      "#TKT-01234",
+      "$500 monthly charge"
     ]
   },
   {
     "id": "em_009",
     "category": "bug_report",
-    "customer_name": "Ethan",
+    "customer_name": "Ava",
     "sentiment": "frustrated",
-    "subject": "Issues with Hiver's automated workflows",
-    "body": "I've been experiencing issues with Hiver's automated workflows. Despite setting them up correctly, they're not triggering as expected. I've tried troubleshooting but the problem persists. Please help me resolve this ASAP as it's affecting my team's productivity.",
+    "subject": "Error when assigning tasks in Hiver",
+    "body": "I'm on the Premium plan and I've been getting an error when trying to assign tasks to my team members in Hiver. It says 'Failed to assign task: invalid recipient'. I've tried multiple times but it doesn't work. This is really slowing down our workflow.",
     "key_facts": [
-      "Hiver plan: Business",
-      "Automated workflow ID: HWF-1234",
-      "Error message: 'Workflow trigger failed'"
+      "Premium plan",
+      "Error message: 'Failed to assign task: invalid recipient'",
+      "Assigning tasks to team members"
     ]
   },
   {
@@ -125,51 +124,52 @@
     "category": "bug_report",
     "customer_name": "Liam",
     "sentiment": "neutral",
-    "subject": "Error when assigning tasks in Hiver",
-    "body": "Hi support team, I'm encountering an error when trying to assign tasks to my colleagues in Hiver. The error message says 'User not found'. However, the users are already added to our Hiver account. Could you please look into this and provide a solution?",
+    "subject": "Hiver not syncing with Gmail",
+    "body": "Hi, I'm on the Business plan and I've noticed that Hiver isn't syncing with my Gmail inbox. I've checked the settings and everything looks fine. Could you please help me troubleshoot this issue? I've tried restarting the sync but it still doesn't work.",
     "key_facts": [
-      "Hiver plan: Enterprise",
-      "Task ID: TK-5678",
-      "Error message: 'User not found'"
+      "Business plan",
+      "Gmail inbox not syncing",
+      "Restarted sync"
     ]
   },
   {
     "id": "em_011",
     "category": "bug_report",
-    "customer_name": "Ava",
+    "customer_name": "Ethan",
     "sentiment": "angry",
-    "subject": "Hiver's shared inbox not syncing",
-    "body": "I'm extremely disappointed with Hiver's performance. The shared inbox is not syncing properly, causing us to miss important emails. We've been using Hiver for months now, and this is the fourth time this issue has occurred. I expect a prompt resolution to this problem.",
+    "subject": "Hiver is causing duplicate emails",
+    "body": "I'm extremely disappointed with the service I'm getting from Hiver. On my Enterprise plan, I'm getting duplicate emails in my shared inbox. This is causing a lot of confusion and extra work for my team. I've tried to contact support before but I haven't gotten a satisfactory response. Please fix this ASAP.",
     "key_facts": [
-      "Hiver plan: Growth",
-      "Shared inbox ID: SI-9012",
-      "Last sync time: 2023-02-20 10:00 AM"
+      "Enterprise plan",
+      "Duplicate emails in shared inbox",
+      "Previous support contact"
     ]
   },
   {
     "id": "em_012",
     "category": "bug_report",
-    "customer_name": "Noah",
-    "sentiment": "positive",
-    "subject": "Minor issue with Hiver's reporting feature",
-    "body": "Hi Hiver team, I hope you're doing well. I've noticed a minor issue with the reporting feature. The data for the previous week is not showing up correctly. I've tried refreshing the page, but the issue persists. Could you please help me resolve this? Your support team is always so helpful!",
+    "customer_name": "Sophia",
+    "sentiment": "neutral",
+    "subject": "Issue with Hiver's reporting feature",
+    "body": "Hi, I'm using the Growth plan and I'm having some issues with the reporting feature in Hiver. When I try to generate a report, I get an error message saying 'Data not available'. I've checked the documentation but I couldn't find a solution. Could you please help me figure out what's going on?",
     "key_facts": [
-      "Hiver plan: Starter",
-      "Report ID: RP-3456",
-      "Date range: 2023-02-15 to 2023-02-21"
+      "Growth plan",
+      "Error message: 'Data not available'",
+      "Reporting feature issue"
     ]
   },
   {
     "id": "em_013",
     "category": "angry_escalation",
-    "customer_name": "Ethan",
+    "customer_name": "Ava",
     "sentiment": "angry",
     "subject": "Unacceptable Service with Hiver",
-    "body": "I've been using Hiver for a month now on the Business Plan, and the experience has been atrocious. Constant errors like 'Failed to Load Conversations' have made it impossible for my team to work efficiently. I expect immediate resolution to this issue.",
+    "body": "I am writing to express my extreme dissatisfaction with Hiver's service. Despite paying for the Premium plan, I've been experiencing constant disruptions. The 'Failed to sync' error is still not resolved after multiple reports. This is unacceptable for a tool that promises seamless shared inbox management.",
     "key_facts": [
-      "Business Plan",
-      "Error message: Failed to Load Conversations",
-      "Ticket ID: HV-001234"
+      "Premium plan",
+      "Failed to sync error",
+      "Multiple reports",
+      "Ticket ID: HV-1234"
     ]
   },
   {
@@ -178,141 +178,144 @@
     "customer_name": "Liam",
     "sentiment": "frustrated",
     "subject": "Frustrating Experience with Hiver's Support",
-    "body": "I've been trying to get help with integrating Hiver into our Gmail for weeks, but every time I reach out, I'm met with generic responses that don't address my issue. The 'Authentication Failed' error persists, and I'm extremely disappointed in the lack of support on the Premium Plan.",
+    "body": "I've been trying to get help from Hiver's support team for days, but it's been a nightmare. My team is on the Enterprise plan, and we're facing issues with email assignment. The error 'Assignment failed: unknown user' keeps popping up. I need this resolved ASAP to avoid further disruption to our workflow.",
     "key_facts": [
-      "Premium Plan",
-      "Error message: Authentication Failed",
-      "Ticket ID: HV-005678"
+      "Enterprise plan",
+      "Assignment failed: unknown user error",
+      "Ticket ID: HV-5678",
+      "Team size: 15 users"
     ]
   },
   {
     "id": "em_015",
     "category": "angry_escalation",
-    "customer_name": "Mason",
-    "sentiment": "angry",
-    "subject": "Demanding Refund for Hiver Services",
-    "body": "The Hiver service on our Enterprise Plan has been down for three days, causing significant disruption to our operations. Despite numerous complaints, the issue remains unresolved. I'm demanding a full refund for the past month and expect compensation for the losses incurred due to your service's failure.",
+    "customer_name": "Ethan",
+    "sentiment": "neutral",
+    "subject": "Concerns with Hiver's Performance",
+    "body": "I'm reaching out because my team and I are experiencing some performance issues with Hiver. We're currently on the Starter plan, but the 'Loading...' screen often hangs indefinitely. We've tried troubleshooting, but nothing seems to work. I'd appreciate it if you could look into this and provide a solution.",
     "key_facts": [
-      "Enterprise Plan",
-      "Service downtime: 3 days",
-      "Ticket ID: HV-009876"
+      "Starter plan",
+      "Loading... screen issue",
+      "Troubleshooting attempts",
+      "Team size: 5 users"
     ]
   },
   {
     "id": "em_016",
     "category": "angry_escalation",
-    "customer_name": "Logan",
-    "sentiment": "frustrated",
-    "subject": "Critical Issue with Hiver's Shared Inbox",
-    "body": "Our team has been experiencing a critical issue with the shared inbox on the Growth Plan, where emails are not being synced properly, leading to missed communications. The error 'Sync Failed' appears frequently. I've tried troubleshooting, but the problem persists. I need urgent assistance to resolve this.",
+    "customer_name": "Mia",
+    "sentiment": "angry",
+    "subject": "Unresolved Issue with Hiver's Integration",
+    "body": "I am extremely disappointed in the level of support I've received from Hiver. My team is on the Business plan, and we've been struggling with integration issues. The 'Authentication failed' error persists, despite following the troubleshooting guide. I expect a prompt resolution to this issue to prevent further losses.",
     "key_facts": [
-      "Growth Plan",
-      "Error message: Sync Failed",
-      "Ticket ID: HV-012345"
+      "Business plan",
+      "Authentication failed error",
+      "Troubleshooting guide followed",
+      "Ticket ID: HV-9012"
     ]
   },
   {
     "id": "em_017",
     "category": "feature_question",
-    "customer_name": "Evelyn",
+    "customer_name": "Ethan",
     "sentiment": "neutral",
-    "subject": "Shared Inbox Features for Team Plan",
-    "body": "Hi Hiver Support, I'm evaluating Hiver for my team. Can you tell me more about the shared inbox features included in the Team Plan? Specifically, I'd like to know if it allows for automatic email assignment and if there are any limitations on the number of users. Looking forward to hearing back from you.",
+    "subject": "Hiver Features Inquiry",
+    "body": "Hi Hiver Support, I'm reaching out to inquire about features available on the Growth Plan. Specifically, I'd like to know if automated workflows and custom reporting are included. Looking forward to your response.",
     "key_facts": [
-      "Team Plan",
-      "shared inbox features",
-      "automatic email assignment"
+      "Growth Plan",
+      "automated workflows",
+      "custom reporting"
     ]
   },
   {
     "id": "em_018",
     "category": "feature_question",
-    "customer_name": "Tyler",
+    "customer_name": "Liam",
     "sentiment": "frustrated",
-    "subject": "Error with Email Templates on Business Plan",
-    "body": "Hi Support, I'm having issues with the email templates on my Business Plan account. Every time I try to save a new template, I get an error message saying 'Template save failed'. I've tried clearing my cache and logging out/in, but nothing seems to work. Can you help me resolve this issue as soon as possible?",
+    "subject": "Error with Email Templates",
+    "body": "I'm trying to use email templates on my Hiver account, but I keep getting an 'invalid template formatting' error. I've checked the help docs, but can't find anything helpful. Can someone please assist me with this issue?",
     "key_facts": [
-      "Business Plan",
       "email templates",
-      "Template save failed error"
+      "invalid template formatting error",
+      "Hiver account"
     ]
   },
   {
     "id": "em_019",
     "category": "feature_question",
-    "customer_name": "Liam",
+    "customer_name": "Ava",
     "sentiment": "positive",
-    "subject": "Customizable Dashboard on Enterprise Plan",
-    "body": "Hey Hiver Team, love the new updates to the Enterprise Plan! I was wondering if the customizable dashboard allows for the creation of custom widgets? If so, are there any limitations on the number of widgets I can create? Really looking forward to exploring this feature further.",
+    "subject": "Upgrading to Enterprise Plan",
+    "body": "Hi Hiver team, I'm interested in upgrading my account to the Enterprise Plan. Can you please let me know what additional features I'll have access to, specifically regarding advanced analytics and integrations? Thanks in advance for your help!",
     "key_facts": [
       "Enterprise Plan",
-      "customizable dashboard",
-      "custom widgets"
+      "advanced analytics",
+      "integrations"
     ]
   },
   {
     "id": "em_020",
     "category": "feature_question",
-    "customer_name": "Ava",
+    "customer_name": "Julian",
     "sentiment": "angry",
-    "subject": "Missing Features on Starter Plan",
-    "body": "Hi Hiver Support, I recently downgraded to the Starter Plan and was shocked to find that several features I relied on are no longer available. Specifically, I'm missing the ability to set up automated workflows and custom notifications. Can you explain why these features were removed and if there's any way to get them back?",
+    "subject": "Missing Features on Pro Plan",
+    "body": "I've been using Hiver's Pro Plan for a while now, but I'm extremely disappointed to find out that it doesn't include bulk email sending. This is a crucial feature for my business, and I was never informed that it wasn't available. Can someone please explain why this feature is missing and what I can do to get it?",
     "key_facts": [
-      "Starter Plan",
-      "automated workflows",
-      "custom notifications"
+      "Pro Plan",
+      "bulk email sending",
+      "missing feature"
     ]
   },
   {
     "id": "em_021",
     "category": "account_access",
-    "customer_name": "Emily",
+    "customer_name": "Ethan",
     "sentiment": "frustrated",
-    "subject": " Unable to login to my Hiver account",
-    "body": "Hi, I've been trying to log in to my Hiver account all morning, but I keep getting an error message saying 'Invalid credentials'. I've tried resetting my password, but it's still not working. I have a meeting in an hour and I need to access my account ASAP. Please help!",
+    "subject": "Can't access my Hiver account",
+    "body": "I've been trying to log in to my Hiver account for hours, but I keep getting the error 'Invalid credentials'. I know my password is correct. Please help me regain access ASAP. My team is waiting on me to respond to urgent emails.",
     "key_facts": [
       "Error message: Invalid credentials",
-      "Account type: Premium Plan",
-      "Last login attempt: 10:45 AM"
+      "Account type: Team Plan",
+      "Last login: 2 days ago"
     ]
   },
   {
     "id": "em_022",
     "category": "account_access",
-    "customer_name": "David",
+    "customer_name": "Liam",
     "sentiment": "positive",
-    "subject": "Account access question",
-    "body": "Hi Hiver team, I just wanted to check if it's possible to add another admin user to my account. I've recently hired a new team member and I'd like them to have the same level of access as me. Could you let me know the next steps?",
+    "subject": "Account access query",
+    "body": "Hi, I just wanted to check if it's possible to add another user to our Hiver account. We've recently expanded our team and need to give them access to our shared inbox. Looking forward to hearing back from you.",
     "key_facts": [
-      "Current plan: Business Plan",
-      "Number of users: 5",
-      "New admin user email: [john.doe@example.com]"
+      "Plan name: Business Plan",
+      "Current users: 5",
+      "Desired action: Add new user"
     ]
   },
   {
     "id": "em_023",
     "category": "account_access",
-    "customer_name": "Sarah",
+    "customer_name": "Ava",
     "sentiment": "angry",
     "subject": "Locked out of my account",
-    "body": "I'm extremely disappointed in the level of service I've received from Hiver. I've been locked out of my account for the past 2 days and I haven't received any help from the support team. I've tried resetting my password, but it's still not working. I demand that someone looks into this ASAP.",
+    "body": "I'm extremely disappointed in the service I've received from Hiver. I've been locked out of my account for days and despite multiple attempts to reset my password, I've had no success. This is unacceptable and I demand that this issue is resolved immediately.",
     "key_facts": [
-      "Error message: Account suspended",
-      "Order ID: #INV001",
-      "Last payment date: 2023-02-15"
+      "Error message: Account locked due to excessive login attempts",
+      "Account type: Solo Plan",
+      "Ticket ID: #TKT-1234"
     ]
   },
   {
     "id": "em_024",
     "category": "account_access",
-    "customer_name": "Michael",
+    "customer_name": "Julian",
     "sentiment": "neutral",
-    "subject": "Account access inquiry",
-    "body": "Hi, I'm trying to set up a new Hiver account for my team, but I'm having some trouble with the sign-up process. I've entered all the required information, but I'm getting an error message saying 'Email already in use'. Could you help me figure out what's going on?",
+    "subject": "Question about account credentials",
+    "body": "Hi, I'm trying to set up Hiver for my team and I had a question about account credentials. Can you please let me know if it's possible to use Google Authentication to log in to our Hiver account? If so, are there any specific steps I need to take to set it up?",
     "key_facts": [
-      "Error message: Email already in use",
-      "Plan name: Starter Plan",
-      "Email address: [michael@example.com]"
+      "Desired authentication method: Google Authentication",
+      "Plan name: Enterprise Plan",
+      "Current authentication method: Password-based"
     ]
   }
 ]

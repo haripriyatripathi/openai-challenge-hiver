@@ -1,27 +1,36 @@
 # openai-challenge-hiver
 
-AI-powered customer support email reply generator with automated response quality scoring.
+an ai-powered customer support email reply system that generates context-aware responses using an llm and evaluates their quality through multiple response metrics.
 
 ---
 
-## Overview
+## overview
 
-This project was built for the Hiver OpenAI Challenge.
+this project was built for the hiver openai challenge.
 
-It generates customer support replies using an LLM and evaluates how good each generated reply is using multiple quality metrics.
+the system:
 
----
+- creates a synthetic customer support email dataset
+- generates suggested replies using an llm
+- evaluates each generated reply
+- produces per-response and overall quality scores
 
-## Features
-
-- Generate a synthetic customer support dataset
-- Generate AI-powered email replies
-- Evaluate generated replies
-- Save evaluation scores automatically
+the project runs end-to-end and is fully reproducible.
 
 ---
 
-## Project Structure
+## features
+
+- synthetic email dataset generation
+- llm-powered response generation
+- retrieval-based grounding using previous examples
+- automated response evaluation
+- per-response scoring
+- overall system quality score
+
+---
+
+## project structure
 
 ```text
 email-ai/
@@ -49,55 +58,50 @@ email-ai/
 
 ---
 
-# Installation
+## installation
 
-Clone the repository
+clone the repository
 
 ```bash
 git clone https://github.com/haripriyatripathi/openai-challenge-hiver.git
 ```
 
-Go inside the project
+move into the project
 
 ```bash
 cd openai-challenge-hiver
 ```
 
-Install dependencies
+install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file
+create a `.env` file
 
 ```env
-OPENAI_API_KEY=your_openai_api_key
+groq_api_key=your_api_key
 ```
 
 ---
 
-# Step 1 - Generate Dataset
-
-Run
+## step 1 - generate dataset
 
 ```bash
-python .\src\generate_dataset.py
+python src/generate_dataset.py
 ```
 
-Output
+creates a synthetic dataset containing customer support emails across multiple categories including:
 
-![Dataset Generation](assets/dataset-generation.png)
+- billing issues
+- refund requests
+- bug reports
+- feature questions
+- account access
+- angry escalation
 
-Creates a synthetic dataset containing customer support emails for:
-
-- Billing Issues
-- Refund Requests
-- Bug Reports
-- Feature Questions
-- Account Access
-
-Output file
+output:
 
 ```text
 data/dataset.json
@@ -105,21 +109,15 @@ data/dataset.json
 
 ---
 
-# Step 2 - Generate AI Replies
-
-Run
+## step 2 - generate replies
 
 ```bash
-python .\src\generate_replies.py
+python src/generate_replies.py
 ```
 
-Output
+generates suggested replies for every email using an llm grounded on previous examples.
 
-![Reply Generation](assets/dataset_replies.png)
-
-Generates AI responses for every email in the dataset.
-
-Output file
+output:
 
 ```text
 data/replies.json
@@ -127,21 +125,15 @@ data/replies.json
 
 ---
 
-# Step 3 - Evaluate Responses
-
-Run
+## step 3 - evaluate replies
 
 ```bash
-python .\src\evaluate.py
+python src/evaluate.py
 ```
 
-Output
+evaluates every generated reply and produces individual scores together with an overall system score.
 
-![Evaluation](assets/dataset_evaluation.png)
-
-Evaluates every generated response and calculates an overall quality score.
-
-Output file
+output:
 
 ```text
 results/scores.json
@@ -149,51 +141,48 @@ results/scores.json
 
 ---
 
-## Evaluation Metrics
+## evaluation methodology
 
-The response quality is measured using:
+exact text matching is not suitable for email generation because multiple responses can correctly answer the same customer request.
 
-- Semantic Similarity
-- BERTScore
-- ROUGE-L
-- Retrieval Confidence
-- Response Length
+instead, each reply is evaluated using several complementary metrics:
 
-Each response receives an individual score along with an overall system score.
+- semantic similarity
+- bertscore
+- rouge-l
+- retrieval confidence
+- response length
 
----
+these metrics together measure meaning preservation, response completeness, grounding quality, and readability.
 
-## Tech Stack
-
-- Python
-- OpenAI API
-- LangChain
-- FAISS
-- Sentence Transformers
-- BERTScore
+the final system score is calculated from the combined evaluation of all generated responses.
 
 ---
 
-## Run Everything
+## technology stack
+
+- python
+- groq api
+- llama 3.3 70b
+- langchain
+- faiss
+- sentence transformers
+- bertscore
+
+---
+
+## run the complete pipeline
 
 ```bash
-python .\src\generate_dataset.py
-
-python .\src\generate_replies.py
-
-python .\src\evaluate.py
+python src/generate_dataset.py
+python src/generate_replies.py
+python src/evaluate.py
 ```
 
 ---
 
-## AI Usage
+## ai usage
 
-ChatGPT was used for brainstorming, debugging, implementation guidance, and documentation.
+claude was used to assist with code boilerplate, implementation ideas, and debugging during development.
 
-The project structure, implementation, testing, and final integration were completed manually.
-
----
-
-## Repository
-
-https://github.com/haripriyatripathi/openai-challenge-hiver
+all project integration, customization, testing, evaluation pipeline, and final implementation decisions were completed manually.

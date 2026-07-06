@@ -1,0 +1,98 @@
+[
+  {
+    "email_id": "em_001",
+    "reply": "Hi Oliver, \nI can see that you're experiencing a 'Payment gateway timeout' error while trying to pay for your Business plan subscription, which is understandably frustrating. You've attempted to pay three times already, and I apologize for the inconvenience this has caused. \nI'm going to investigate this issue further, so could you please try to pay again and if the error persists, reply to this email with the exact error message you see. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_002",
+    "reply": "Hi Liam, \nI've taken a look at your recent invoice for the Team plan and understand your concern about the total amount being higher than expected. You mentioned the invoice seemed a bit higher than anticipated, and I'd be happy to help clarify the costs for you. \nI'll review your account details and send over a breakdown of the costs to help you understand the invoice better. \nBest, \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_003",
+    "reply": "Hi Ava, \nI apologize for the frustration caused by the incorrect charge for the Enterprise plan when you're actually using the Basic plan. I understand how upsetting it can be to see unexpected charges, and I'm here to help resolve this issue for you. \nI'll review your account details to identify the cause of the incorrect charge and take necessary steps to correct your subscription. \nPlease allow me to look into this further. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_004",
+    "reply": "Hi Sophia, \nI'm glad to hear that you were able to successfully pay for your Grow plan subscription using a different payment method. I appreciate you bringing the discrepancy in the payment confirmation email to my attention, and I'd like to investigate this further. \nI will review the payment confirmation email for your Grow plan subscription to ensure its accuracy. \nBest,\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_005",
+    "reply": "Hi Emily, \nI can see that you're experiencing issues with your Hiver Growth Plan subscription, specifically the 'Cannot connect to Gmail' error, despite being charged $49 on 02/10/2024. I understand how frustrating this must be for you. \nI'll go ahead and escalate your issue to our technical team to investigate the connection problem and get back to you with the next steps.\n\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_006",
+    "reply": "Hi Liam, \nI understand that you're upset about the unauthorized charge for Hiver Pro and the 'Authentication failed' error you're experiencing. You mentioned being charged $29, and I want to help resolve this issue for you. \nI'm going to escalate your case to our billing team to investigate this further. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_007",
+    "reply": "Hi Ava, \nI understand you're looking to cancel your Hiver Team Plan subscription due to company restructuring and would like a refund for the $99 charge on 01/15/2024, associated with order ID #HTP0012. I'd be happy to help you with this request. \nTo proceed, I'll review your account details and initiate the refund process. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_008",
+    "reply": "Hi Julian, I appreciate you reaching out to us about your refund request for the Hiver Enterprise Plan, specifically for subscription ID #HEP0051. I've taken note of the $199 charge on 03/01/2024. I'd be happy to assist you with the refund process. Next, I'll go ahead and escalate your request to our billing team for further review. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_009",
+    "reply": "Hi Ethan, \nI understand that you're experiencing issues with Hiver's automated workflows not triggering as expected, which is affecting your team's productivity. I apologize for the frustration this has caused and appreciate the troubleshooting steps you've already taken. \nTo help resolve this, I'd like you to please provide more details about the specific workflows that are not working as expected, so I can investigate further. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_010",
+    "reply": "Hi Liam, \nI understand you're experiencing an error when assigning tasks to your colleagues in Hiver, with the message 'User not found' appearing despite them being added to your account. I'd like to investigate this further, specifically looking into the user accounts and task assignments. \nNext, could you please reply with the exact names or email IDs of the users you're trying to assign tasks to, so I can look into this issue more closely?\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_011",
+    "reply": "Hi Ava, \nI understand that the shared inbox not syncing is causing you to miss important emails, which is unacceptable. I acknowledge that this is the fourth time you've experienced this issue, and I apologize for the frustration it's caused. \nI'm going to investigate this issue immediately to determine the cause of the problem. \nPlease allow me to look into this and I will be in touch with an update soon.\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_012",
+    "reply": "Hi Noah, I'm happy to help you with the issue you're experiencing with Hiver's reporting feature, specifically with the previous week's data not showing up correctly. I appreciate you trying to refresh the page to troubleshoot the problem. Next, could you please try clearing your browser cache and then check the reporting feature again to see if the data appears correctly? \n\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_013",
+    "reply": "Hi Ethan, \nI can see that you're experiencing frustrating errors with Hiver on your Business Plan, specifically the 'Failed to Load Conversations' issue. I understand how this is impacting your team's productivity and I apologize for the inconvenience. \nI'm going to escalate this issue to our technical team for immediate attention. \nPlease allow me to look into this further and I will be in touch with an update soon.\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_014",
+    "reply": "Hi Liam, \nI can see that you're experiencing a frustrating issue with the 'Authentication Failed' error while trying to integrate Hiver into your Gmail on the Premium Plan. I apologize for the generic responses you've received so far, which clearly haven't addressed your concern. \nI'm going to escalate your issue to our technical team to investigate this further. \nBest,\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_015",
+    "reply": "Hi Mason, \nI understand that the Hiver service on your Enterprise Plan has been down for three days, causing significant disruption to your operations. I apologize for the inconvenience and frustration this has caused, and I'm truly sorry that the issue remains unresolved despite your numerous complaints. \nI'm going to escalate this issue to our priority support queue to get it resolved as soon as possible. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_016",
+    "reply": "Hi Logan, \nI understand that your team is experiencing a critical issue with the shared inbox on the Growth Plan, resulting in missed communications due to the 'Sync Failed' error. I acknowledge the frustration this has caused and appreciate the troubleshooting steps you've already taken. \nI'll investigate this issue further, please allow me to look into this and I will get back to you with the next steps. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_017",
+    "reply": "Hi Evelyn, \nI understand you're evaluating Hiver for your team and have questions about the shared inbox features in our Team Plan. You're specifically interested in automatic email assignment and user limits. \nI'd be happy to provide more information on our Team Plan features. Please check our documentation for the most up-to-date details on shared inbox features and user limits.\nBest,\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_018",
+    "reply": "Hi Tyler, I'm so sorry to hear that you're experiencing issues with saving email templates on your Business Plan account, and I can imagine how frustrating it must be to see the 'Template save failed' error message despite trying troubleshooting steps like clearing your cache and logging out/in. I'd like to help you resolve this issue, and the next step would be for you to please try saving a new template and then reply to this email with the exact error message you see, so I can investigate further. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_019",
+    "reply": "Hi Liam, \nI'm glad you're enjoying the updates to our Enterprise Plan. You're interested in the customizable dashboard feature, specifically regarding custom widget creation, and I'd be happy to help you with that. \nI'll look into the details of your Enterprise Plan and get back to you with information on custom widget creation and any potential limitations. \nBest, \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_020",
+    "reply": "Hi Ava, \nI understand that you're upset about the missing features on your Starter Plan, particularly the automated workflows and custom notifications that you relied on. I acknowledge that downgrading from a higher plan can be frustrating when certain features are no longer available. \nYour next step is to reply to this email with more details about your previous plan, so I can look into possible alternatives for you. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_021",
+    "reply": "Hi Emily, I'm so sorry to hear that you're having trouble logging in to your Hiver account and that it's causing you frustration, especially with a meeting coming up. I understand that you've been trying to reset your password, but the 'Invalid credentials' error persists. I'd like you to try clearing your browser cache and cookies, and then attempt to log in again to see if that resolves the issue. \n\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_022",
+    "reply": "Hi David, I'm happy to help you with adding another admin user to your account. You've recently hired a new team member and want them to have the same level of access as you. To proceed, could you please reply to this email with the new team member's email address, so I can assist you with the next steps? \n\nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_023",
+    "reply": "Hi Sarah, \nI apologize for the frustration you're experiencing with being locked out of your account for the past 2 days. I understand that you've tried resetting your password, but it's still not working, and I'm truly sorry that our support team hasn't been able to resolve this for you yet. \nI'm going to escalate your issue to our priority queue so we can investigate this further. \nPriya, Hiver Support"
+  },
+  {
+    "email_id": "em_024",
+    "reply": "Hi Michael, \nI understand you're having trouble setting up a new Hiver account due to an 'Email already in use' error message. You've mentioned that you've entered all the required information, but still encountering this issue. \nI'd like you to try signing in with the email address you're trying to use for the new account to see if it's already associated with an existing Hiver account.\nPriya, Hiver Support"
+  }
+]
